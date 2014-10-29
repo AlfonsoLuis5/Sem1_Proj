@@ -50,34 +50,11 @@
         android:layout_below="@+id/tableRow"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/tableRow2">
+        android:id="@+id/tableRow2"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/Tigers">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Logo Here"
-            android:textSize="50sp"
-            android:textAlignment="center"
-            android:id="@+id/log_txt" />
-    </TableRow>
-
-    <TableRow
-        android:layout_width="fill_parent"
-        android:layout_height="150dp"
-        android:layout_below="@+id/tableRow2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:weightSum="1">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Welcome to UST News"
-            android:textSize="45sp"
-            android:id="@+id/wel_txt"
-            android:layout_weight="1.04" />
     </TableRow>
 
 </RelativeLayout>

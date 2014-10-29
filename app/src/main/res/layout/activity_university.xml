@@ -12,11 +12,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="University News"
+        android:text="University"
         android:textSize="50sp"
         android:textAlignment="center"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/tableRow"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -24,7 +24,7 @@
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:id="@+id/tableRow"
-        android:layout_below="@+id/textView"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
@@ -40,4 +40,16 @@
             android:text="Events"
             android:id="@+id/UniE_btn" />
     </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/textView"
+        android:background="@drawable/ustlogo">
+
+    </TableRow>
+
 </RelativeLayout>
