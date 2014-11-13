@@ -19,7 +19,7 @@ public class Main extends Activity implements View.OnClickListener
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button1 = (Button)findViewById(R.id.loc_btn);
+        Button1 = (Button)findViewById(R.id.Loc_btn);
         Button1.setOnClickListener(this);
         Button2 = (Button)findViewById(R.id.Uni_btn);
         Button2.setOnClickListener(this);
@@ -60,7 +60,7 @@ public class Main extends Activity implements View.OnClickListener
     {
         switch (v.getId())
         {
-            case R.id.loc_btn:
+            case R.id.Loc_btn:
             {
                 button1Click();
                 break;

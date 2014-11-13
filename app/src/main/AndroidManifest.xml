@@ -21,18 +21,56 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.LOCAL" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".University"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.UNIVERSITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".News_University"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEWS_UNIVERSITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Events_University"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EVENTS_UNIVERSITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Events_Engineering"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EVENTS_ENGINEERING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".News_Engineering"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEWS_ENGINEERING" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

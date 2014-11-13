@@ -6,5 +6,9 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_local">Local</string>
     <string name="title_activity_university">University</string>
+    <string name="title_activity_news__university">News_University</string>
+    <string name="title_activity_events__university">Events_University</string>
+    <string name="title_activity_events__engineering">Events_Engineering</string>
+    <string name="title_activity_news__engineering">News_Engineering</string>
 
 </resources>
